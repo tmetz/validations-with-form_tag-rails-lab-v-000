@@ -15,7 +15,7 @@
 
   <div class="field<%= ' field_with_errors' if @post.errors[:title].any? %>">
     <%= label_tag "title", "Title" %>
-    <%= text_field_tag "ntitle", @post.title %>
+    <%= text_field_tag "title", @post.title %>
   </div>
 
   <div class="field<%= ' field_with_errors' if @post.errors[:category].any? %>">
